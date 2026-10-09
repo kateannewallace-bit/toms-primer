@@ -1,7 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" fill="#8a6240"/>
-  <rect x="44" y="44" width="424" height="408" fill="#26332d"/>
-  <rect x="0" y="452" width="512" height="60" fill="#5e4129"/>
-  <text x="256" y="315" text-anchor="middle" font-family="Chalkboard SE, Chalkboard, sans-serif" font-weight="700" font-size="210" fill="#f3d77a">am</text>
-  <line x1="120" y1="365" x2="392" y2="365" stroke="#eeece3" stroke-opacity=".85" stroke-width="10" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><rect width="512" height="512" fill="#8a6240"/><rect x="44" y="44" width="424" height="408" fill="#26332d"/><rect x="0" y="452" width="512" height="60" fill="#5e4129"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M256 170 C215 140 160 135 106 150 L106 360 C160 345 215 350 256 380 Z" fill="#eeece3" fill-opacity=".1" stroke="#eeece3" stroke-width="10"/>
+<path d="M256 170 C297 140 352 135 406 150 L406 360 C352 345 297 350 256 380 Z" fill="#eeece3" fill-opacity=".1" stroke="#eeece3" stroke-width="10"/>
+<path d="M256 170 L256 380" stroke="#eeece3" stroke-width="8"/>
+</g>
+<g font-family="Chalkboard SE, Chalkboard, sans-serif" font-weight="700" font-size="92" text-anchor="middle">
+<text x="181" y="295" fill="#f3d77a">Aa</text><text x="331" y="295" fill="#f5b47e">Bb</text></g>
 </svg>
