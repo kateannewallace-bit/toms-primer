@@ -361,7 +361,7 @@ nt: ant pant bent dent lent rent sent tent went hint mint tint hunt punt runt
 > Send the cat a hat!
 > Tom went on a hunt.
 
-# 45 | Final syllable er
+# 45 | Final syllable er; er words and sentences
 ? er added to known words makes many new ones.
 er: her ham-mer lad-der din-ner sup-per rub-ber hot-ter thin-ner num-ber ban-ner pep-per hunt-er
 > Tom the Hunter has a red banner.
