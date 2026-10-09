@@ -400,7 +400,7 @@ function renderPlay() {
   const label = pg.type === 'sent' ? 'Read the sentence' : pg.kind === 'review' ? pg.label : pg.kind === 'tricky' ? 'Tricky words' : pg.kind === 'syl' ? 'Syllables' : `Lesson ${pg.n}`;
   let body, buttons;
   if (pg.type === 'col') {
-    const head = pg.kind === 'review' ? `<span class="fam review">${esc(pg.label)}</span>` : pg.kind === 'tricky' ? `<span class="fam tricky">Read carefully: these don't follow the rule</span>` : /^[a-z' -]{1,6}$/i.test(pg.label) && !['pairs', 'in', 'a', 'I'].includes(pg.label) ? `<span class="fam">${esc(pg.label.replace(/ end$/, ''))}</span>` : '';
+    const head = pg.kind === 'review' ? `<span class="fam review">${esc(pg.label)}</span>` : pg.kind === 'tricky' ? `<span class="fam tricky">Read carefully: these don't follow the rule</span>` : /^[a-z' -]{1,6}$/i.test(pg.label) && !['pairs', 'in', 'a', 'I', 'words', 'to be'].includes(pg.label) ? `<span class="fam">${esc(pg.label.replace(/ end$/, ''))}</span>` : '';
     body = `${head}<ol class="col">${pg.items.map((it, j) => {
       const now = j === sess.i;
       const cls = now ? 'now' : it.r === true ? 'ok' : it.r === false ? 'miss' : '';

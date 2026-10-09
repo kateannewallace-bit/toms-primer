@@ -55,7 +55,7 @@ RULES = [
 ]
 # Spellings the rules can't see (or misread), checked by hand.
 OK_ANYWAY = {'the', 'she', 'he', 'me', 'we', 'be', 'a', 'I', 'have', 'are', 'there', 'where', 'were', 'gone', 'done', 'one', 'come', 'some',
-             'none', 'once', 'love', 'dove', 'glove', 'shove', 'move', 'whole', 'give', 'live', 'awe', 'ache', 'doll', "aren't", "weren't", 'thyme', 'eye', 'into'}
+             'none', 'once', 'love', 'dove', 'glove', 'shove', 'move', 'whole', 'give', 'live', 'awe', 'ache', 'doll', 'they', "aren't", "weren't", 'thyme', 'eye', 'into'}
 
 
 def needs(word):

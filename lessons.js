@@ -133,6 +133,7 @@ eg: beg leg peg Meg
 et: bet get jet let met net pet set vet wet yet
 en: den hen men pen ten Ben Ken
 e: yes web gem Set
+!: cell sell
 
 # 17 | Short e sentences
 > Ted fed a red hen.
@@ -146,7 +147,7 @@ e: yes web gem Set
 # 18 | Short e words and syllables
 ? Short e drill columns. Initial c sounds like s here; final c sounds like k.
 ~ syllables: eb ec ed ef eg el em en ep es et ev ex ez
-ell: bell fell sell tell well yell
+ell: bell fell tell well yell
 e: less mess deck neck peck egg Jeff Bess
 
 # 19 | Short i words; ph as f
@@ -189,15 +190,15 @@ th end: with bath path math Beth Seth
 ? off and dog are often said a little differently; son, ton and won are irregular.
 ob: Bob cob job mob rob sob
 od: cod God nod pod rod
-og: dog fog hog jog log
+og: fog hog jog log
 om: Tom mom
 on: Don Ron on
 op: cop hop mop pop top
 ot: cot dot got hot jot lot not pot rot
 ox: box fox ox
 ock: lock rock sock dock
-o: doll odd off
-!: son ton won
+o: doll odd
+!: son ton won dog off
 
 # 24 | Short o sentences
 ? Irregular words should be read the way they are normally spoken.
@@ -281,7 +282,8 @@ wh: when which whip whiz whim whack whiff
 # 34 | Verbs to be and to have
 ? have and be, with am, is, are, was, were. they, were and you are common irregular words, taught as sight words for now.
 to be: I am he is she we
-!: have be are were they you to in-to
+words: they in-to
+!: have be are were you to
 
 # 35 | Sentences
 > They were in the ship.
@@ -321,7 +323,7 @@ n't: isn't can't didn't hasn't wasn't aren't weren't haven't
 # 40 | a as in all; sentences
 ? The second sound of a, as in all.
 all: all ball call fall hall mall tall wall
-!: shall
+sh: shall
 > The ball fell.
 > Call the dog.
 > The tall man is in the hall.
@@ -331,11 +333,11 @@ all: all ball call fall hall mall tall wall
 ? ng is two sounds said close together. Short-vowel words usually double the last letter before ing (sit, sitting).
 ang: bang fang gang hang rang sang
 ing: king ring sing wing thing
-ong: gong long song
 ung: hung lung rung sung
 ing: kick-ing fish-ing tell-ing yell-ing pack-ing wish-ing
 ing: sit-ting run-ning hop-ping dig-ging
-!: Wash-ing-ton
+words: Wash-ing-ton
+!: long song
 
 # 42 | Sentences with ing words
 > The king is singing a song.
@@ -618,7 +620,7 @@ pairs: ate/eight made/maid pale/pail tale/tail male/mail sale/sail plane/plain w
 ? The aw sound, written au or aw. Note the irregular awe and aunt.
 au: haul Paul fault vault cause pause haunt launch sauce
 aw: jaw law paw raw saw claw draw flaw straw thaw lawn dawn fawn yawn crawl shawl hawk
-!: awe aunt
+!: aunt
 
 # 84 | Sentences with au, aw words
 > Paul saw a fawn at dawn.
@@ -657,8 +659,7 @@ een: teen green queen seen
 eep: beep deep jeep keep peep sheep sleep steep sweep creep
 eet: beet feet meet sheet sweet street greet
 ee: beef reef teeth
-e: be me
-!: knee been
+!: knee been be he me we she
 
 # 88 | Long e sentences
 > The bee is in the tree.
@@ -680,7 +681,7 @@ eap: heap leap cheap
 ear: ear dear fear gear hear near year clear spear
 east: east beast feast least
 ea: tea pea sea flea leaf each beach peach reach teach please
-!: head bread dead deaf sweat threat bear pear wear swear steak break read lead tear
+!: head bread dead deaf sweat sweat-er threat bear pear wear swear steak break read lead tear
 
 # 90 | Long e sentences
 > The beast is near the sea.
@@ -774,10 +775,9 @@ ise: wise rise
 # 100 | Long i as igh; sentences
 ? An old spelling, but in some of our most common words.
 igh: high sigh thigh light might night right sight tight bright flight fright slight fight
-!: knight
 > The kite is high in the sky.
 > It's night, and the light is bright.
-> The knight can fight.
+> The king can fight.
 > What a fright!
 > The light is bright.
 
@@ -786,7 +786,7 @@ igh: high sigh thigh light might night right sight tight bright flight fright sl
 ough: ought bought brought fought sought thought
 augh: caught taught daugh-ter naugh-ty
 !: though
-> The knight fought the dragon.
+> The king fought the dragon.
 > Dad brought me a kite.
 > She taught me to swim.
 > The cat caught a fish.
@@ -826,7 +826,7 @@ oze: doze froze
 > I love my home.
 > The fox froze by the stove.
 > Those bones are in a hole.
-> The knight broke his pole.
+> The king broke his pole.
 > The dragon chose a stone throne.
 > I hope you like it.
 > Come home, Mole! The rain is coming.
@@ -835,7 +835,7 @@ oze: doze froze
 > Rose has a cone. Mole has a bone.
 > Wake up, Tom! The dragon is home!
 > The fox hid in the grove by the cove.
-> The knight drove the dragon from the throne.
+> The king drove the dragon from the throne.
 
 # 105 | Long o as oa; sentences
 ? Note the irregular broad.
@@ -843,10 +843,9 @@ oa: oak soak cloak croak road load toad loaf coal goal foal foam roam moan groan
 oat: boat coat goat moat float throat
 oast: boast coast roast toast
 oach: coach roach poach
-!: broad
 > The toad croaks.
 > A goat is in the boat.
-> The knight has a cloak.
+> The king has a cloak.
 > The coach is on the road.
 > The boat floats on the moat.
 
@@ -878,14 +877,14 @@ o: oh go no so yo-yo
 
 # 108 | Common irregular words
 ? Best taught inside sentences. to, too and two sound alike but mean different things; too is regular, to and two are not.
-!: to too two do who does says shoe don't won't
+!: to too two do who
 > Who is there?
 > I do.
 > Do you like the troll?
-> The dog has two shoes too.
-> I don't want to go.
-> He won't come home.
-> Who does the troll like?
+> The dog has two bones too.
+> I do not want to go.
+> He will not come home.
+> Who is the troll?
 
 # 109 | oo as in good food
 ? The two sounds of oo. Note the irregular door and floor.
@@ -919,7 +918,7 @@ ow: cow how now wow plow vow brown clown crown down drown frown gown town owl ho
 ou: out about shout spout stout trout scout snout loud cloud proud ouch couch pouch grouch
 ound: found bound hound pound round sound mound ground
 ou: count mount house mouse blouse south mouth our sour flour
-!: touch wound four your rough tough enough
+!: touch wound four your rough tough enough young youth
 
 # 113 | Sentences
 > The cow is in the brown house.
@@ -999,7 +998,8 @@ kn: knee knit knob knock knot know known knelt knife knight kneel knack knuck-le
 # 123 | mb as m; bt as t
 ? It is the letters together (mb, bt) that stand for one sound.
 mb: lamb limb climb comb tomb thumb numb crumb dumb
-bt: debt doubt
+bt: debt
+!: doubt
 
 # 124 | Silent h
 ? h is not sounded in these words. In the gh words, gh stands for g as in go.
