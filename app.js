@@ -242,7 +242,7 @@ function buildRound() {
   }
 
   // The lesson's irregular words, boxed as in the book.
-  const irr = uniq(focus.flatMap(irrOf)).filter(w => !hidden(w) && !used.has(w));
+  const irr = uniq([...focus, i].flatMap(irrOf)).filter(w => !hidden(w) && !used.has(w));
   if (irr.length) pages.push({ type: 'col', kind: 'tricky', label: 'Tricky words', items: sample(irr, size.words).map(w => ({ w, r: null })) });
 
   // Sentences the book has made readable by now; this lesson's first, then recent ones.
@@ -421,7 +421,7 @@ function renderPlay() {
     buttons = sess.helped
       ? `<div class="mark-row">${canSpeak && state.hear ? `<button class="say" data-act="hear">${speakerIcon} Hear it</button>` : ''}<button class="yes" data-act="next" id="next">Next</button></div>`
       : `<div class="mark-row"><button class="yes" data-act="yes" id="yes">✓ Read it</button><button class="helped" data-act="help">Needed help</button></div>
-         <p class="grownup-tip">Tap any word that tripped them up. It will come back for practice.</p>`;
+         <p class="grownup-tip">Run a finger under the words, left to right. Tap any word that tripped them up; it will come back for practice.</p>`;
   }
   return `
   <div class="play-top">
@@ -453,7 +453,7 @@ function renderDone() {
   <div class="stars">${stars.map(starSvg).join('')}</div>
   <p class="meta">${s.ok} of ${s.n} words and ${s.sok} of ${s.sn} sentences read without help.</p>
   ${s.missed.length ? `<section><h2>Coming back tomorrow</h2><div class="done-words">${s.missed.map(w => `<span class="miss">${esc(plain(w.split('/')[0]))}</span>`).join('')}</div></section>` : ''}
-  ${s.write.length ? `<section class="write"><h2>Now write</h2><p class="note">On paper or a slate: a grown-up says each word, and the reader writes it, saying each sound. Then check it together.</p><div class="words">${s.write.map(w => `<span>${esc(w)}</span>`).join('')}</div></section>` : ''}
+  ${s.write.length ? `<section class="write"><h2>Now write</h2><p class="note">Dictation, as the book suggests: a grown-up says each word. First the reader spells it out loud, then writes it on paper, saying each sound. Point out any mistakes and fix them together.</p><div class="words">${s.write.map(w => `<span>${esc(w)}</span>`).join('')}</div></section>` : ''}
   ${readyToMoveOn() ? `<p class="note ready">Grown-up: almost every word in this lesson is read without help. When the book lesson is done, move on from the grown-ups page.</p>` : ''}
   <div class="row-btns"><button class="start" data-act="start">Read again</button><button class="ghost" data-act="home">Home</button></div>`;
 }

@@ -196,7 +196,7 @@ op: cop hop mop pop top
 ot: cot dot got hot jot lot not pot rot
 ox: box fox ox
 ock: lock rock sock dock
-o: doll boss moss toss odd off
+o: doll odd off
 !: son ton won
 
 # 24 | Short o sentences
@@ -270,6 +270,7 @@ wh: when which whip whiz whim whack whiff
 ? Review digraph words, and give a short spelling test.
 
 # 33 | Sentences
+!: of
 > Shut the shed, Seth!
 > Chad has a fish in a dish.
 > Which ship is it?
@@ -279,7 +280,8 @@ wh: when which whip whiz whim whack whiff
 
 # 34 | Verbs to be and to have
 ? have and be, with am, is, are, was, were. they, were and you are common irregular words, taught as sight words for now.
-!: have be are were they you to of in-to
+to be: I am he is she we
+!: have be are were they you to in-to
 
 # 35 | Sentences
 > They were in the ship.
@@ -314,7 +316,7 @@ n't: isn't can't didn't hasn't wasn't aren't weren't haven't
 > Let's have a picnic.
 > The bandit ran up the hill.
 > Ted had a muffin at sunset.
-> The rabbit is hidden in the moss.
+> The rabbit is hidden in the cabin.
 
 # 40 | a as in all; sentences
 ? The second sound of a, as in all.
@@ -394,13 +396,13 @@ xt: next text
 # 49 | Final consonant blends sk, sp, st; sentences
 sk: ask task mask desk tusk husk
 sp: gasp wisp lisp
-st: fast last past best nest rest test vest west fist list mist lost dust must rust just
+st: fast last past best nest rest test vest west fist list mist dust must rust just
 > Just ask Dad.
 > The dog is fast.
 > The hen is on the nest.
 > The best mask is at the shop.
 > Rest in the tent.
-> The goblin lost his mask in the mist.
+> The goblin left his mask in the mist.
 
 # 50 | Final consonant blends lb, ld, lf, lk
 ? Note the irregular bald, calf, half, talk and walk. Sentences use only words and sounds taught through Lesson 50.
@@ -655,7 +657,7 @@ een: teen green queen seen
 eep: beep deep jeep keep peep sheep sleep steep sweep creep
 eet: beet feet meet sheet sweet street greet
 ee: beef reef teeth
-e: be he me we she
+e: be me
 !: knee been
 
 # 88 | Long e sentences
@@ -755,7 +757,6 @@ ive: dive five hive drive
 ize: size prize
 ipe: pipe ripe wipe stripe
 ise: wise rise
-I: I
 !: climb rhyme knife give live
 
 # 99 | Long i sentences
@@ -796,7 +797,6 @@ gh: laugh laugh-ter cough rough tough e-nough
 
 # 103 | Long o as o-e
 ? The most common long o spelling is o-consonant-e. Point out the irregulars in their families: dove, love, glove, shove, move, come, some, whole, one, done, none, once, gone, soul.
-o: go no so
 one: bone cone tone zone stone phone throne
 ode: code rode strode
 oke: joke poke woke smoke spoke stroke broke choke
@@ -804,6 +804,7 @@ ole: hole mole pole role stole
 ome: dome home Rome
 ope: hope rope slope
 ose: nose hose rose those chose
+ore: more bore core sore tore store shore chore
 ote: note vote
 obe: robe globe
 ove: cove drove stove grove
@@ -814,7 +815,7 @@ oze: doze froze
 > The king sat on the throne.
 > The mole is in a hole.
 > Come home, Rose!
-> No one can move the stone.
+> Not one of us can move the stone.
 > Tell me a joke!
 > The globe is on the desk.
 
@@ -827,8 +828,8 @@ oze: doze froze
 > Those bones are in a hole.
 > The knight broke his pole.
 > The dragon chose a stone throne.
-> So, I hope you like it.
-> Go home, Mole! The rain is coming.
+> I hope you like it.
+> Come home, Mole! The rain is coming.
 > Put on a glove and a robe.
 > The dragon broke the dome, and the stones fell.
 > Rose has a cone. Mole has a bone.
@@ -865,10 +866,13 @@ old: old bold cold fold gold hold sold told scold
 olt: colt bolt jolt
 oll: roll toll troll
 ost: most post host
+o: oh go no so yo-yo
+!: only cost lost boss loss moss toss
 > The troll has gold.
 > It is cold in the hole.
 > Hold the rope.
 > I told you so!
+> Go slow. The road is cold.
 > The bold colt is old.
 > The troll wants a toll.
 

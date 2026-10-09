@@ -49,13 +49,13 @@ RULES = [
     (r'ee', 87), (r'ea', 89), (r'(?<![aeiou])e[^aeiouy]e$', 91), (r'ie', 92), (r'[^aeiou]y$', 93), (r'ies$', 95),
     (r'(?<![aeiou])i[^aeiouy]e$', 98), (r'(?<!e)igh', 100), (r'ough|augh', 101), (r'(?<![aeiou])o[^aeiouy]e$', 103), (r'oa', 105), (r'ow', 106),
     (r'ol[dt]$|oll$|ost$', 107), (r'oo', 109), (r'ould', 111), (r'ou(?!gh|ld)', 112), (r'oy|oi', 114), (r'(?<![aeiouq])u[^aeiouy]e$', 115),
-    (r'(?<!q)u[ei]', 116), (r'ew|eu', 117), (r'ir(?!e$)|(?<![oq])ur(?!e$)|or|ear[nltcd]', 118), (r'[^aeiou]le$', 119), (r'stle$', 119), (r'tion|sion|cial|cious|sure|ture|cean', 121),
-    (r'^kn', 122), (r'mb$|bt$', 123), (r'^gh|^rh', 124), (r'^wr', 125), (r'sten$|ften$', 126), (r'^chr|^chor|^ps|chool|^ech|mach|^char[ab]|orch', 127),
+    (r'(?<!q)u[ei]', 116), (r'ew|eu', 117), (r'ir(?!e$)|(?<![oq])ur(?!e$)|or(?!e$)|ear[nltcd]', 118), (r'[^aeiou]le$', 119), (r'stle$', 119), (r'tion|sion|cial|cious|sure|ture|cean', 121),
+    (r'^kn', 122), (r'mb$|bt$', 123), (r'^gh|^rh', 124), (r'^wr', 125), (r'sten$|ften$', 126), (r'^chr|^chor(?!e)|^ps|chool|^ech|mach|^char[ab]|orch', 127),
     (r'[^aeiou]y[^aeiouw]|^gym', 128),
 ]
 # Spellings the rules can't see (or misread), checked by hand.
 OK_ANYWAY = {'the', 'she', 'he', 'me', 'we', 'be', 'a', 'I', 'have', 'are', 'there', 'where', 'were', 'gone', 'done', 'one', 'come', 'some',
-             'none', 'once', 'love', 'dove', 'glove', 'shove', 'move', 'whole', 'give', 'live', 'awe', 'ache', 'doll', 'lost', "aren't", "weren't", 'thyme', 'eye', 'into'}
+             'none', 'once', 'love', 'dove', 'glove', 'shove', 'move', 'whole', 'give', 'live', 'awe', 'ache', 'doll', "aren't", "weren't", 'thyme', 'eye', 'into'}
 
 
 def needs(word):
